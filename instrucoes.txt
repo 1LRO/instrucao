@@ -1,6 +1,6 @@
 Instruções para controle de documentos, utilizando o git.
 
-Passos:
+Passos e comentários:
 
 00 -
 01 - 
@@ -13,3 +13,13 @@ Passos:
 08 -
 09 -
 10 -
+11 -
+12 - 
+13 -
+14 -
+15 -
+16 -
+17 -
+18 -
+19 -
+20 -
