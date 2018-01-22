@@ -1,25 +1,42 @@
 Instruções para controle de documentos, utilizando o git.
 
-Passos e comentários:
+Passos              Comandos                                              comentários:
 
-00 -
-01 - 
-02 -
-03 -
-04 -
-05 -
-06 -
-07 -
-08 -
-09 -
-10 -
-11 -
-12 - 
-13 -
-14 -
-15 -
-16 -
-17 -
-18 -
-19 -
-20 -
+00 - cd "nome da pasta"; Escolher onde o repositório será clonado;
+01 - git clone "url"; Clonar repositório do GitLab;
+02 - ls; Verificar arquivos disponiveis na pasta clonada;
+03 - git init; Comando para iniciar controle do repositório;
+04 - git add "arquivo"; Adicionar arquivo modificado ao repositório;
+05 - git status; Verificar qual arquivo sofreu mudança no repositório;
+06 - git remote; Verificar se existe repositório remoto;
+07 - git remote add origin "url do repositório"; Adicionar repositório remoto;
+08 - git commit -m "mensagem"; Comando para realizar as mudanças no documento;
+09 - git config --global user.name "your name"; Este comando identifica o responsável pela alteração no documento;
+10 - git config --global user.email "you@example.com"; Este comando identifica o  e-mail do responsável pela alteração no documento;
+11 - git pull; Subir a atualização do documento;
+12 - GIT_SSL_NO_VERIFY=true git pull; Caso o comando acima falhe, deve-se executar este, pois se trata falha na autentição;
+13 - git push; Atualizar no repositório; Mandar a atualização do documento para o repositório remoto, com informações do responsável;
+11 - GIT_SSL_NO_VERIFY=true git push; Caso o comando acima falhe, deve-se executar este, pois se trata falha na autentição.
+
+
+
+Permissões do gitLAb:
+Guest:
+Report:
+Master:
+Owner:
+
+
+
+Participantes do grupo: 
+
+01
+02
+03
+04
+05
+06
+07
+08
+09
+10 
